@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html lang="fi">
 <head>
@@ -6,19 +5,53 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Viikko 1 – Taulukko</title>
   <link rel="stylesheet" href="./styles.css" />
+
 </head>
 <body>
   <header>
-    <h1><!-- TODO: Taulukko-sivun H1 --></h1>
+    <h1 class="box">boxi</h1>;
+    <h2 class="container">container</h2>;
+     <h2 class="title">perusotsikko</h2>;
+    <h2 class="title strong">korostettuotsikko</h2>;
+    <h2>Taulukko</h2>
     <nav aria-label="Päävalikko">
       <!-- TODO: Sama navigaatio kuin muilla sivuilla -->
+    <a href="form.html">Lomake</a>
+    <a href="image.html">Kuva</a>
+    <a href="table.html">Taulukko</a>
+    <a href="index.html">Etusivu</a>
     </nav>
   </header>
   <main>
-    <!-- TODO: Lisää datataulukko, jossa on caption + thead/tbody -->
+    <table>
+      <caption>1.perioidin kurssit ja opintopisteet</caption>
+      <thead>
+        <tr>
+          <th>Kurssi</th>
+          <th>Opintopisteet</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Java-ohjelmointi</td>
+          <td>5op</td>
+        </tr>
+        <tr>
+          <td>Web-sovellusten perusteet</td>
+          <td>5op</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>Pilvipalvelut</td>
+          <td>5op</td>
+        </tr>
+      </tfoot>
+    </table>
   </main>
   <footer>
     <!-- TODO: Footer -->
+     <p>Tekijä: Tom Pohjola &copy 2025</p>
   </footer>
 </body>
 </html>

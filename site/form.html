@@ -8,10 +8,18 @@
   <link rel="stylesheet" href="./styles.css" />
 </head>
 <body>
+  
   <header>
-    <h1><!-- TODO: Lomake-sivun H1 --></h1>
+    <h1 class="title">perusotsikko</h1>;
+    <h2 class="box">boxi</h2>;
+    <h2 class="container">container</h2>;
+    <h2 class="title strong">korostettuotsikko</h2>;
+    <h2>Lomake</h2>
     <nav aria-label="Päävalikko">
-      <!-- TODO: Sama navigaatio kuin muilla sivuilla -->
+    <a href="form.html">Lomake</a>
+    <a href="image.html">Kuva</a>
+    <a href="table.html">Taulukko</a>
+    <a href="index.html">Etusivu</a>
     </nav>
   </header>
   <main>
@@ -21,9 +29,18 @@
          - method ja action attribuutit
          - submit-painike
     -->
+      <form action="#" method="post">
+  <label for="email">Sähköposti:</label><br>
+  <input type="text" id="email" name="email"><br>
+  <label for="number">Puhelinnumero:</label><br>
+  <input type="text" id="number" name="number">
+  <button type="submit">Lähetä tiedot</button>
+</form>
+
   </main>
   <footer>
     <!-- TODO: Footer -->
+     <p>Tekijä: Tom Pohjola &copy 2025</p>
   </footer>
 </body>
 </html>
